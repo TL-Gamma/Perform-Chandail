@@ -6,7 +6,7 @@ It includes :
 * A communication in BLE and Bluetooth beetween an ESP32 and mobile App
 
 ## First Relsase (16/04/2024)
-This project include only the datalogger and the battery gestion system for now
+This project only include datalogger and the battery gestion system for now
 
 The Bluetooth communication will be based on frankcohen linked project : https://github.com/frankcohen/ReflectionsOS/tree/main/CloudCity/Gateway
 
