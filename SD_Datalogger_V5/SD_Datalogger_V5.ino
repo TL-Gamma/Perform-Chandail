@@ -1,3 +1,5 @@
+// DATALOGGER V5 - 16/04/2024
+
 //Bibliothèques
 #include <EEPROM.h>             // Bibliothèque pour la configuraton de l'EEPROM
 #include <ArduinoJson.h>        // Bibliothèque pour manipuler les objets JSON
