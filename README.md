@@ -9,4 +9,5 @@ It includes :
 This project include only the datalogger and the battery gestion system for now
 
 The Bluetooth communication will be based on frankcohen linked project : https://github.com/frankcohen/ReflectionsOS/tree/main/CloudCity/Gateway
+
 Patch to do : Comments are in french -> Change to english
