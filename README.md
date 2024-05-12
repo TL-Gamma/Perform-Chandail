@@ -23,7 +23,7 @@ It feature :
 * Push Button
 
 ## 1.1 (11/05/2024)
-**Datalogger update :**
+**Datalogger directory update :**
 * Avrage Speed, duration, positive altitude change, total distence
 * Every second gps data writing on sd card can be disabled
 
