@@ -6,27 +6,7 @@ It features:
 * A GPS data logger (GPS provides: Speed, altitude, latitude, longitude, time, date)
 * JSON data saving on SD
 * Communication between ESP32 and a mobile app to send JSON data saved
-
-## Documentation of the project
-For hardware : see [00_Hardware_documentation](https://github.com/TL-Gamma/Perform-Chandail/tree/5ab9b164b260c9ea856d3d9321b8151a19099564/00_Hardware) directory
-For software : see [01_Software_documentation]
-* ArduinoJson.h
-* TinyGPS++.h
-* HardwareSerial.h
-* SD.h
-* FS.h
-* SPI.h
-* Liquid Crystal_I2C.h (Only for the LCD version of the data logger)
-
-## Minimum Hardware Requirements
-*Important: This project operates on battery, so it requires battery management.*
-* ESP32
-* Any type of GPS that sends NMEA sentences (we use TinyGPS++ to read data). *For reference, I used Benitian BP220.*
-* SD Card
-* Common anode RGB LED
-* Push Button
-* 3-position switch
-* 20x4 LCD (For older versions: V6_LCD)
+For more information see [Documentation](00_Documentation)
 
 ## 1.1 (11/05/2024)
 **Datalogger directory update:**
