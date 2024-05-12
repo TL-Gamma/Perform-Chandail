@@ -1,5 +1,6 @@
+###*Disclamer : This project is in curent work and is commented mostly in french*
 # ESP32-connected-GPS-Datalogger
-*Disclamer : This project is in curent work and is commented mostly in french*
+
 This project is a GPS datalogger based on esp32
 It feature :
 * A battery gestion system
