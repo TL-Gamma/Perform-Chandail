@@ -6,7 +6,9 @@ It features:
 * A GPS data logger (GPS provides: Speed, altitude, latitude, longitude, time, date)
 * JSON data saving on SD
 * Communication between ESP32 and a mobile app to send JSON data saved
-For more information see [Documentation](00_Documentation)
+
+
+**For more information see [Documentation](00_Documentation)**
 
 ## 1.1 (11/05/2024)
 **Datalogger directory update:**
