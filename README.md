@@ -1,6 +1,5 @@
 *Disclaimer: This project is currently under development and is primarily documented in French.*
-# ESP32-connected-GPS-Datalogger
-
+# Perform-Chandail
 This project is a GPS data logger based on ESP32.
 It features:
 * A battery management system
@@ -8,7 +7,9 @@ It features:
 * JSON data saving on SD
 * Communication between ESP32 and a mobile app to send JSON data saved
 
-## Library Requirements for ESP32 data logger
+## Documentation of the project
+For hardware : see [00_Hardware_documentation](https://github.com/TL-Gamma/Perform-Chandail/tree/5ab9b164b260c9ea856d3d9321b8151a19099564/00_Hardware) directory
+For software : see [01_Software_documentation]
 * ArduinoJson.h
 * TinyGPS++.h
 * HardwareSerial.h
