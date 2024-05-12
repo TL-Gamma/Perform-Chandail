@@ -1,6 +1,8 @@
 # Documentation
 This project has been devlopped on Arduino IDE 2.0 with the esp32-arduino sdk and compiler
-This project operates on battery the objective is to make it low comsumption
+
+
+This project operates on battery
 ## Princpal Library used on this project for ESP32
 * [TinyGPS++](https://github.com/mikalhart/TinyGPSPlus.git) -> To read GPS Data
 * [ArduinoJson](https://github.com/bblanchon/ArduinoJson.git) -> To write & read in JSON format
@@ -8,7 +10,6 @@ This project operates on battery the objective is to make it low comsumption
 * [Liquid Crystal_I2C](https://github.com/johnrickman/LiquidCrystal_I2C.git) -> For LCD integration (Only used on Datalogger V4/V5/V6)
 
 ## Hardware used
-
 * ESP32
 * Any type of GPS that sends NMEA sentences. *For reference, I used Benitian BP220, other types of gps like NEO-6M should surely do the job*
 * SD Card
