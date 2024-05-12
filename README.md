@@ -11,7 +11,7 @@ To simulate communication beetween ESP32 & mobile app, Python programs are used 
 
 **For more information see [Documentation](00_Documentation)**
 
-## 1.1 (11/05/2024)
+## 1.1b (11/05/2024)
 **Datalogger directory update:**
 Added Datalogger V7
 * LCD Withdrawn
@@ -24,7 +24,7 @@ Added Datalogger V7
 
 **Added: Documentation directory**
 * Include schematic and PCB design of the project
-## 1.0 First Release (16/04/2024)
+## 1.0b Veta Release (16/04/2024)
 **Added: Datalogger directory**
 * Datalogger V1: Records GPS data and saves it on the SD Card & push button in interruption that can stop recording and create a new file at every ESP32 start
 * Datalogger V2: Features a timed buffer for GPS data acquisition and an RGB Led that can monitor the acquisition of data
