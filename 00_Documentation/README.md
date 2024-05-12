@@ -3,7 +3,7 @@ This project has been devlopped on Arduino IDE 2.0 with the esp32-arduino sdk an
 
 
 This project operates on battery
-## Princpal Library used on this project for ESP32
+## Main library used on this project for ESP32
 * [TinyGPS++](https://github.com/mikalhart/TinyGPSPlus.git) -> To read GPS Data
 * [ArduinoJson](https://github.com/bblanchon/ArduinoJson.git) -> To write & read in JSON format
 * [Arduino-esp32](https://github.com/espressif/arduino-esp32.git) librairies (HardwareSerial, SD, FS, SPI) -> To interface with SD card
