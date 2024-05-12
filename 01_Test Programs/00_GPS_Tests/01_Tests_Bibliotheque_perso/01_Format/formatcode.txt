@@ -1,0 +1,61 @@
+/**********************************************FORMATAGE DATE****************************************************/
+
+String formatDate(String inputDate) {
+  // Vérifier si la chaîne de caractères a une longueur valide (6 caractères)
+  if (inputDate.length() != 6) {
+    return "Invalid input"; // Retourner un message d'erreur si la longueur est incorrecte
+  }
+
+  // Extraire les parties jour, mois et année de la chaîne de caractères
+  int day = inputDate.substring(0, 2).toInt();
+  int month = inputDate.substring(2, 4).toInt();
+  int year = 2000 + inputDate.substring(4).toInt();
+
+  // Formater la date au format "YYYY-MM-DD"
+  return String(year) + "-" + (month < 10 ? "0" : "") + String(month) + "-" + (day < 10 ? "0" : "") + String(day);
+}
+
+/**********************************************FORMATAGE HEURE****************************************************/
+String formatTime(String inputTime) {
+  // Extraire les parties heures, minutes et secondes de la chaîne d'entrée
+  int hours = inputTime.substring(0, 2).toInt();
+  int minutes = inputTime.substring(2, 4).toInt();
+  int seconds = inputTime.substring(4, 6).toInt();
+
+  // Formater l'heure en HH:MM:SS
+  return String(hours) + ":" + (minutes < 10 ? "0" : "") + String(minutes) + ":" + (seconds < 10 ? "0" : "") + String(seconds);
+}
+
+/**********************************************FORMATAGE LOCALISATION EN DMS****************************************************/
+
+String formatDMS(String input) {
+  double coord;
+  char direction;
+  int n = sscanf(input.c_str(), "%lf %c", &coord, &direction);
+
+  if (n == 2) {
+    int degrees = (int)(coord / 100);
+    int minutes = (int)coord - (degrees * 100);
+    double seconds = (coord - degrees * 100 - minutes) * 60;
+
+    return String(degrees) + "° " + String(minutes) + "' " + String(seconds, 3) + "\" " + direction;
+  } else {
+    return "Invalid input";
+  }
+}
+/**********************************************FORMATAGE LOCALISATION EN DD****************************************************/
+
+String formatDD(String input) {
+  double coord;
+  int n = sscanf(input.c_str(), "%lf", &coord);
+
+  if (n == 1) {
+    int degrees = (int)(coord / 100);
+    double minutes = coord - (degrees * 100);
+    double decimalDegrees = degrees + (minutes / 60.0);
+    return String(decimalDegrees, 6);  // Le deuxième argument spécifie le nombre de décimales à afficher
+  } else {
+    // En cas d'entrée invalide
+    return "Invalid input";
+  }
+}
