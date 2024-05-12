@@ -1,4 +1,4 @@
-###*Disclamer : This project is in curent work and is commented mostly in french*
+*Disclamer : This project is in curent work and is commented mostly in french*
 # ESP32-connected-GPS-Datalogger
 
 This project is a GPS datalogger based on esp32
