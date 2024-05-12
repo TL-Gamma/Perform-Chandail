@@ -7,7 +7,7 @@ It features:
 * JSON data saving on SD
 * Communication between ESP32 and a mobile app to send JSON data saved
 
-To test communication Python programs are used to test the communication
+To simulate communication beetween ESP32 & mobile app, Python programs are used to test the communication
 
 **For more information see [Documentation](00_Documentation)**
 
