@@ -6,7 +6,7 @@ It features:
 * A battery management system
 * A GPS data logger (GPS provides: Speed, altitude, latitude, longitude, time, date)
 * JSON data saving on SD
-* Communication between ESP32 and a mobile app
+* Communication between ESP32 and a mobile app to send JSON data saved
 
 ## Library Requirements for ESP32 data logger
 * ArduinoJson.h
