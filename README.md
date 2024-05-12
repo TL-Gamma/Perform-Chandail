@@ -23,7 +23,7 @@ Added Datalogger V7
 * Python test capable of receiving simple Bluetooth data (supports hello world command from the Bluetooth classic program, issue with acquisition of large string). If this solution doesn't work, an ESP32 will be an HTTP Server on WiFi AP capable of sending JSON files to the mobile device.
 
 **Added: Documentation directory**
-* Include schematic and PCB of the project
+* Include schematic and PCB design of the project
 ## 1.0 First Release (16/04/2024)
 **Added: Datalogger directory**
 * Datalogger V1: Records GPS data and saves it on the SD Card & push button in interruption that can stop recording and create a new file at every ESP32 start
