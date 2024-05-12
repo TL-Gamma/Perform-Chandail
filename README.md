@@ -36,4 +36,5 @@ If this solution doesn't work it wil be a ESP 32 will be an HTTP Server on Wifi 
 **Added : Datalogger directory** 
 * Datalogger V1/V2/V3/V4/V5/V6 & V6_LCD
 **Added : Unitary tests directory**
+
 Note : Only V6 & V6_LCD featues full features stable
