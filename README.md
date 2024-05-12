@@ -10,11 +10,13 @@ It feature :
 * ArduinoJson.h
 * TinyGPS++.h
 * HardwareSerial.h
-* SD.h // FS.h // SPI.h
+* SD.h
+* FS.h
+* SPI.h
 * Liquid Crystal_I2C.h (Only for LCD Version of the datalogger)
 ## Hardware minimal Requirements
 * ESP32
-* Any type of GPS that send NMEA trams, (we use TinyGPS++ to read data), as a reference i used Benitian BP220
+* Any type of GPS that send NMEA trams, (we use TinyGPS++ to read data). *As a reference i used Benitian BP220*
 * SD Card
 * RGB LED
 * Push Button
