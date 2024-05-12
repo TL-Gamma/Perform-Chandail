@@ -19,4 +19,4 @@ This project operates on battery
 * I²C 20x4 LCD (connected to default I²C Ports) : for test on battery, to monitor data during tests, used on Datalogger V4/V5/V6
 
 
-For cable rooting see [Shematic](00_Documentation/PCB_Connected_GPS_Datalogger_Project.pdf)
+For cable rooting see [[Shematic](00_Documentation/PCB_Connected_GPS_Datalogger_Project.pdf)](https://github.com/TL-Gamma/Perform-Chandail/blob/5c7101901dbf19d851dd238090973781bca3cb34/00_Documentation/PCB_Connected_GPS_Datalogger_Project.pdf)
