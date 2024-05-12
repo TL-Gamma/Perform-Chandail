@@ -44,11 +44,18 @@ Added Datalogger V7
 * Datalogger V2: Features a timed buffer for GPS data acquisition and an RGB Led that can monitor the acquisition of data
 * Datalogger V3: Modification on the naming of the "null" data, blocks the starting of the program if no SD card
 * Datalogger V4/V5/V6: Implementation of a 3-way switch that changes between modes: Communication mode, Datalogger mode, and system off. Features Handling brutal stop*. Improved code clarity by subdividing into functions. Adding #define for colors
-  -> V4: Features a writing erasing technique on SD that stops data acquisition when brutally stopped (does not work: file corruption). Also features LCD data monitoring for battery tests
-  -> V5: Features an EEPROM system that modifies the last file when it's in communication mode by adding {}] (working but not really reliable: file corruption). Also features LCD data monitoring for battery tests
-  -> **V6 & V6_LCD**: Features a push button that needs to be pressed to stop GPS data acquisition, then put ESP32 in sleep mode to save battery. LCD version features monitoring for battery tension and data of the data logger
+
+    -> V4: Features a writing erasing technique on SD that stops data acquisition when brutally stopped (does not work: file corruption). Also features LCD data monitoring for battery tests
+
+    -> V5: Features an EEPROM system that modifies the last file when it's in communication mode by adding {}] (working but not really reliable: file corruption). Also features LCD data monitoring for battery tests
+
+    -> **V6 & V6_LCD**: Features a push button that needs to be pressed to stop GPS data acquisition, then put ESP32 in sleep mode to save battery. LCD version features monitoring for battery tension and data of the datalogger
+
+
 
 *brutal stop: means that ESP32 runs out of battery or is stopped by the user
+
+
 **Added: Battery management directory**
 
 **Added: Unitary tests directory**
