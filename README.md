@@ -10,7 +10,19 @@ It features:
 To simulate communication beetween ESP32 & mobile app, Python programs are used to test the communication
 
 **For more information see [Documentation](00_Documentation)**
+## 1.2b (24/05/2024)
+**Datalogger directory update**
+Added Datalogger V8 :
 
+**Communication Directory update**
+Added HTTP Web Server Test :
+
+**Added : Perform Chandail ESP32 directory Added**
+Includes : 
+*
+**Added : Mobile App directory added**
+Includes :
+*
 ## 1.1b (11/05/2024)
 **Datalogger directory update:**
 Added Datalogger V7
