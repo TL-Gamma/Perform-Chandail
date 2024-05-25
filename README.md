@@ -15,10 +15,15 @@ To simulate communication beetween ESP32 & mobile app, Python programs are used 
 
 
 Added Datalogger V8 :
+* Enable/Disable JSON Stacking in SD
+* Enable/Disable GPS datalogging
 
 **Communication Directory update**
 
 Added HTTP Web Server Test :
+* "/" Root -> Print all the htttp commands avaliable
+* "/gps_data" -> Push JSON file data
+
 
 **Added : Perform Chandail ESP32 directory dded**
 
