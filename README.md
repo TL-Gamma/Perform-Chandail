@@ -12,9 +12,13 @@ To simulate communication beetween ESP32 & mobile app, Python programs are used 
 **For more information see [Documentation](00_Documentation)**
 ## 1.2b (24/05/2024)
 **Datalogger directory update**
+
+
 Added Datalogger V8 :
 
 **Communication Directory update**
+
+
 Added HTTP Web Server Test :
 
 **Added : Perform Chandail ESP32 directory Added**
