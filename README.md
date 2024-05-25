@@ -19,10 +19,10 @@ Added HTTP Web Server Test :
 
 **Added : Perform Chandail ESP32 directory Added**
 Includes : 
-*
+
 **Added : Mobile App directory added**
 Includes :
-*
+
 ## 1.1b (11/05/2024)
 **Datalogger directory update:**
 Added Datalogger V7
