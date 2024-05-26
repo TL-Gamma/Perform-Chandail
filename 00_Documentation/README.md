@@ -8,6 +8,8 @@ This project operates on battery
 * [ArduinoJson](https://github.com/bblanchon/ArduinoJson.git) -> To write & read in JSON format
 * [Arduino-esp32](https://github.com/espressif/arduino-esp32.git) librairies (HardwareSerial, SD, FS, SPI, Bluetooh Serial, Wifi) -> To interface with SD card and communicate
 * [Liquid Crystal_I2C](https://github.com/johnrickman/LiquidCrystal_I2C.git) -> For LCD integration (Only used on Datalogger V4/V5/V6)
+* [AsyncTCP](https://github.com/dvarrel/AsyncTCP) -> Requiered for ESPAsyncWebServer
+* [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer/tree/master) -> To Handle HTTP Server and sending data 
 
 ## Hardware used
 * ESP32
