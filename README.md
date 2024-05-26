@@ -7,12 +7,11 @@ It features:
 * JSON data saving on SD
 * Communication between ESP32 and a mobile app to send JSON data saved
 
-To simulate communication beetween ESP32 & mobile app, Python programs are used to test the communication
+
 
 **For more information see [Documentation](00_Documentation)**
 ## 1.0 First relase and beta test update (24/05/2024)
 **Datalogger directory update**
-
 
 Added Datalogger V8 :
 * Enable/Disable JSON Stacking in SD
@@ -21,15 +20,19 @@ Added Datalogger V8 :
 **Communication Directory update**
 
 Added HTTP Web Server Test :
-* "/" Root -> Print all the htttp commands avaliable
-* "/gps_data" -> Push JSON file data
+* "/" Root -> Print all the http commands avaliable
+* "/list_files" -> lists all file on SD
+* "/download?file=/gps_data_1.json" -> download the selected file on request
+* "/remove_file?file=/gps_data_1.json" -> remove the selected file on request
+* "/pointed_gps_data?file=/gps_data_1.json" -> Push the selected json on request
+* "/gps_data" -> Push JSON file "/gps_data.json" on request
+* "/gps_json_value?value=date" -> Push the value of the JSON  on request, in this case the date
 
-
-**Added : Perform Chandail ESP32 directory dded**
-
+**Added : Perform Chandail ESP32 directory added**
 
 Includes : 
-
+* Feature form HTTP Web server test code
+* Feature from the Datalogger V8
 
 ## 0.2b Beta realease update (11/05/2024)
 **Datalogger directory update:**
