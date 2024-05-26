@@ -31,7 +31,7 @@ Added HTTP Web Server Test :
 Includes : 
 
 
-## 0.2 Beta realease update (11/05/2024)
+## 0.2b Beta realease update (11/05/2024)
 **Datalogger directory update:**
 Added Datalogger V7
 * LCD Withdrawn
