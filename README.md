@@ -1,4 +1,4 @@
-*Disclaimer: This project is currently under development and is primarily documented in French.*
+*Disclaimer: This project is primarily documented in French*
 # Perform-Chandail
 This project is a GPS data logger based on ESP32.
 It features:
@@ -10,7 +10,7 @@ It features:
 To simulate communication beetween ESP32 & mobile app, Python programs are used to test the communication
 
 **For more information see [Documentation](00_Documentation)**
-## 1.2b (24/05/2024)
+## 1.0 First relase and beta test update (24/05/2024)
 **Datalogger directory update**
 
 
@@ -31,7 +31,7 @@ Added HTTP Web Server Test :
 Includes : 
 
 
-## 1.1b (11/05/2024)
+## 0.2 Beta realease update (11/05/2024)
 **Datalogger directory update:**
 Added Datalogger V7
 * LCD Withdrawn
@@ -44,7 +44,7 @@ Added Datalogger V7
 
 **Added: Documentation directory**
 * Include schematic and PCB design of the project
-## 1.0b Veta Release (16/04/2024)
+## 0.1b Beta release (16/04/2024)
 **Added: Datalogger directory**
 * Datalogger V1: Records GPS data and saves it on the SD Card & push button in interruption that can stop recording and create a new file at every ESP32 start
 * Datalogger V2: Features a timed buffer for GPS data acquisition and an RGB Led that can monitor the acquisition of data
