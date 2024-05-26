@@ -30,10 +30,6 @@ Added HTTP Web Server Test :
 
 Includes : 
 
-**Added : Mobile App directory added**
-
-
-Includes :
 
 ## 1.1b (11/05/2024)
 **Datalogger directory update:**
